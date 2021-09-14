@@ -10,6 +10,11 @@ export type EditorDidMount = (
   monaco: typeof monacoEditor
 ) => void;
 
+export type EditorDidUpdate = (
+  editor: monacoEditor.editor.IStandaloneCodeEditor,
+  monaco: typeof monacoEditor
+) => void;
+
 /**
  * @remarks
  * This will be `IStandaloneEditorConstructionOptions` in newer versions of monaco-editor, or
@@ -79,6 +84,11 @@ export interface MonacoEditorProps extends MonacoEditorBaseProps {
    * An event emitted when the editor has been mounted (similar to componentDidMount of React).
    */
   editorDidMount?: EditorDidMount;
+
+  /**
+   * An event emitted when the editor has been updated (similar to componentDidMount of React).
+   */
+  editorDidUpdate?: EditorDidUpdate;
 
   /**
    * An event emitted before the editor mounted (similar to componentWillMount of React).
