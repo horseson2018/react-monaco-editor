@@ -1,7 +1,7 @@
 {
-  "name": "react-monaco-editor",
-  "version": "0.44.0",
-  "description": "Monaco Editor for React",
+  "name": "react-monaco-editor-smart",
+  "version": "0.0.1",
+  "description": "Based on Monaco Editor for React@0.44.0",
   "main": "lib/index.js",
   "module": "lib/index",
   "types": "lib/index.d.ts",
@@ -22,7 +22,8 @@
   "authors": [
     "Daniele Esposti <daniele.espsoti@gmail.com>",
     "Dominik Moritz <domoritz@cs.washington.edu>",
-    "Leon Shi <superRaytin@gmail.com>"
+    "Leon Shi <superRaytin@gmail.com>",
+    "miusi luo <miusi.luo@tuya.com>"
   ],
   "license": "MIT",
   "bugs": {
