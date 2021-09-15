@@ -167,11 +167,9 @@ class MonacoEditor extends React.Component<MonacoEditorProps> {
 
   render() {
     const { width, height } = this.props;
-    const fixedWidth = processSize(width);
-    const fixedHeight = processSize(height);
     const style = {
-      width: fixedWidth,
-      height: fixedHeight,
+      width,
+      height,
     };
 
     return (

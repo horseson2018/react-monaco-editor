@@ -1,6 +1,6 @@
 {
   "name": "react-monaco-editor-smart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Based on Monaco Editor for React@0.44.0",
   "main": "lib/index.js",
   "module": "lib/index",
